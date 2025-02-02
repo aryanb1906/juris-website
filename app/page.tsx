@@ -22,7 +22,7 @@ export default function Home() {
       </aside>
       <main className="flex-1 flex flex-col">
         <header className="p-4 border-b border-border flex justify-between items-center">
-          <h1 className="text-2xl font-bold">Legal AI Chat</h1>
+          <h1 className="text-2xl font-bold">Juris AI Chat</h1>
           <ThemeToggle />
         </header>
         <Chat currentChatId={currentChatId} />
